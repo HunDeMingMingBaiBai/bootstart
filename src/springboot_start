@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T02:10:28.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="15.8.8" etag="EzGfHpFiMU2bsoMbdwZi" type="github"><diagram id="5sDXLipRSImqRP63zAKS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-16T01:28:39.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="4sUDeaSrMfowGTD6Ugb0" version="15.8.8" type="github">
+  <diagram id="5sDXLipRSImqRP63zAKS" name="Page-1">
+    <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rlamjd_MzZk2ocDgSQJw-1" target="Rlamjd_MzZk2ocDgSQJw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-1" value="org.springframework.context.ApplicationContextInitializer&lt;br&gt;&lt;br&gt;org.springframework.context.ApplicationListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="390" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rlamjd_MzZk2ocDgSQJw-2" target="Rlamjd_MzZk2ocDgSQJw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-2" value="org.springframework.boot.SpringApplicationRunListener" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rlamjd_MzZk2ocDgSQJw-3" target="Rlamjd_MzZk2ocDgSQJw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-3" value="org.springframework.boot.context.event.ApplicationStartingEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="350" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Rlamjd_MzZk2ocDgSQJw-6" target="Rlamjd_MzZk2ocDgSQJw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-6" value="org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="510" width="485" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Rlamjd_MzZk2ocDgSQJw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-8" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #00627a&quot;&gt;contextPrepared()&lt;/span&gt;&lt;/pre&gt;org.springframework.boot.context.event.ApplicationContextInitializedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="650" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-12" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #00627a&quot;&gt;contextLoaded()&lt;/span&gt;&lt;/pre&gt;org.springframework.boot.context.event.ApplicationPreparedEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="780" width="445" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rlamjd_MzZk2ocDgSQJw-13" value="&lt;pre style=&quot;background-color: #ffffff ; color: #080808 ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font face=&quot;jetbrains mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;org.springframework.context.annotation.ConfigurationClassPostProcessor&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #00627a&quot;&gt;postProcessBeanDefinitionRegistry()&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#00627a&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;org.springframework.context.annotation.ConfigurationClassParser&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #00627a&quot;&gt;parse()&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;font color=&quot;#00627a&quot; face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;org.springframework.context.annotation.ClassPathBeanDefinitionScanner&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre&gt;&lt;pre style=&quot;color: rgb(8 , 8 , 8) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;span style=&quot;color: #00627a&quot;&gt;doScan()&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;&lt;font color=&quot;#00627a&quot;&gt;拿到&lt;/font&gt;@SpringBootApplication的scanBasePackages扫描注入BeanDefinition&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="990" width="675" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
